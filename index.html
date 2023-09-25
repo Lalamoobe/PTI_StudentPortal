@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Tech Institute Student Portal</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">menu</span>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>Phoenix Tech Institute</h2>
+            </a>
+            <ul class="links">
+                <li><span class="close-btn material-symbols-rounded">close</span><li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <button class="login-btn">Log In</button>
+        </nav>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Online Student Portal</h2>
+                <p>Access and navigate with your active Student ID no., Email Account, and Mobile Phone no.</p>
+            </div>
+            <div class="form-content">
+                <h2>Log In</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Username / Student ID no.</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Mobile Phone No.</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>New Student Application Portal</h2>
+                <p>Access with your active Email Account and Mobile Phone no.</p>
+            </div>
+            <div class="form-content">
+                <h2>Sign Up</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Mobile Phone no.</label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
