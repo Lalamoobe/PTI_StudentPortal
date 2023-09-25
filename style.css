@@ -90,7 +90,7 @@ header {
     .navbar .login-btn {
         border: none;
         outline: solid;
-        background: #fff;
+        background: transparent;
         color: #000;
         font-size: 1rem;
         font-weight: 800;
@@ -113,7 +113,7 @@ header {
     opacity: 0;
     pointer-events: none;
     max-width: 720px;
-    background: #fff;
+    background: transparent;
     border: 2px solid #fff;
     transform: translate(-50%, -70%);
 }
