@@ -1,4 +1,4 @@
-﻿/* Importing Google font - Open Sans */
+/* Importing Google font - Open Sans */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
 * {
@@ -78,7 +78,7 @@ header {
     .navbar .links a {
         color: #000;
         font-size: 1.1rem;
-        font-weight: 500;
+        font-weight: bold;
         text-decoration: none;
         transition: 0.1s ease;
     }
@@ -307,7 +307,8 @@ form button {
             width: 100%;
             padding-top: 60px;
             text-align: center;
-            background: #fff;
+            background: transparent;
+            backdrop-filter: blur(5px);
             transition: 0.2s ease;
         }
 
@@ -319,6 +320,7 @@ form button {
                 display: inline-flex;
                 margin: 20px 0;
                 font-size: 1.2rem;
+                font-weight: bold;
                 color: #000;
             }
 
